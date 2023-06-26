@@ -50,3 +50,8 @@ function scrollFunction() {
 function scrollToTop() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
 }
+
+$(window).on("load", function() {
+  $("html, body").css("overflow", "hidden");
+});
+
