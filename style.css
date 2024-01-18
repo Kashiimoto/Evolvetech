@@ -9,7 +9,7 @@ html, body {
 }
 
 body::-webkit-scrollbar {
-    display: none;  /* For Chrome, Safari, and Opera */
+    display: none;  
   }
 
 button#scrollToTopBtn {
@@ -27,7 +27,7 @@ button#scrollToTopBtn {
 }
 
 button#scrollToTopBtn.show {
-    display: block; /* Show the button when the user has scrolled past 100vh */
+    display: block; 
 }
 
 
@@ -102,6 +102,11 @@ main p {
     display: inline-block;
     padding: 10px;
     transform: rotate(45deg);
+}
+
+.arrow:hover{
+    border: solid yellow;
+    border-width: 0 5px 5px 0;
 }
 
 .showcase{
